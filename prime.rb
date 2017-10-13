@@ -8,5 +8,5 @@ def prime?(number)
       break
     end
   end
-  return true
+  
 end

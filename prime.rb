@@ -8,7 +8,7 @@ def prime?(number)
       break
     end
   end
-  
+
 
 
 end

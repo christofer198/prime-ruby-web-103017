@@ -4,9 +4,9 @@ def prime?(number)
   prime = 0
   for each in (2..number)
     if each % number == 0
-      return false
+      return true
       break
     end
   end
-  return true
+  return false
 end

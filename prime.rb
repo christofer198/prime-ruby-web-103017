@@ -1,14 +1,14 @@
 # Add  code here!
 def prime?(number)
 
-  prime = 1
+  notPrime = 1
   for each in (2..number)
     if each % number == 0
-      prime += 1
+      notPrime += 1
     end
   end
 
-  if prime > 1
+  if notPrime > 1
     return false
   else
     return true
